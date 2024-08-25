@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   font-size: 28px;
   height: 100vh;
-  background-color: wheat;
+  background-color: rgba(245, 222, 179, 0.5);
   display: flex;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -24,7 +24,7 @@ body {
   gap: 2em;
   padding-left: 4em;
   padding-right: 6em;
-  margin-top: 8em;
+  margin-top: 7.5em;
 }
 
 .left-side {
@@ -45,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 4.5em;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   font-size: 4rem;
   font-family: odin-font, sans-serif;
 }
@@ -71,6 +71,8 @@ fieldset input {
   width: 85%;
   font-size: 1.4rem;
   padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 fieldset legend {
@@ -78,8 +80,8 @@ fieldset legend {
   font-weight: 500;
 }
 
-button {
-  background-color: rgb(13, 109, 79);
+.submit-btn {
+  background-color: rgba(13, 109, 79, 0.9);
   color: white;
   font-size: 1.2rem;
   padding: 12px 30px;
