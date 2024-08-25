@@ -7,5 +7,65 @@
     <script defer src="script.js"></script>
     <title>Sign up</title>
   </head>
-  <body></body>
+  <body>
+    <div class="left-side">
+      <div class="logo">
+        <img src="logo.png" alt="Odin logo" class="odin-logo" />
+        <h1 class="title">Odin</h1>
+      </div>
+    </div>
+    <div class="form">
+      <div class="message">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <br />
+        <p>You <em>know</em> you want to</p>
+      </div>
+      <div class="form-input">
+        <form action="http://www.example.com" method="post">
+          <fieldset>
+            <legend>Let's do this!</legend>
+            <div class="first-name">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="first_name" id="first_name" />
+            </div>
+            <div class="last-name">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" name="last_name" id="last_name" />
+            </div>
+            <div class="email">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="phone-number">
+              <label for="phone_number">PHONE NUMBER</label>
+              <input type="number" name="phone_number" id="phone_number" />
+            </div>
+
+            <div class="password">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="confirm-password">
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+              />
+            </div>
+          </fieldset>
+          <div class="submit">
+            <button type="submit">Create Account</button>
+          </div>
+          <span class="have-account"
+            >Already have an account? <a href="">Log in</a></span
+          >
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

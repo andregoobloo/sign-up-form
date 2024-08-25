@@ -1,5 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@font-face {
+  font-family: odin-font;
+  src: url(Norse-Bold.otf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
   box-sizing: border-box;
+  font-size: 28px;
+  height: 100vh;
+  background-color: wheat;
+  display: flex;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-left: 4em;
+  padding-right: 6em;
+  margin-top: 8em;
+}
+
+.left-side {
+  background-image: url(bg-image.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 40%;
+}
+
+.odin-logo {
+  width: 2em;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  font-family: odin-font, sans-serif;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+}
+
+.form-input label {
+  font-size: 0.9rem;
+}
+
+fieldset div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 40%;
+}
+
+fieldset input {
+  width: 85%;
+  font-size: 1.4rem;
+  padding: 5px;
+}
+
+fieldset legend {
+  padding-bottom: 1em;
+  font-weight: 500;
+}
+
+button {
+  background-color: rgb(13, 109, 79);
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px grey;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.message {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.have-account {
+  font-size: 0.8em;
 }
