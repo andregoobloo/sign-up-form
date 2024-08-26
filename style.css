@@ -81,10 +81,10 @@ fieldset legend {
 }
 
 .submit-btn {
-  background-color: rgba(13, 109, 79, 0.9);
+  background-color: #596d48;
   color: white;
   font-size: 1.2rem;
-  padding: 12px 30px;
+  padding: 16px 32px;
   border: none;
   border-radius: 8px;
   box-shadow: 1px 1px 1px grey;
